@@ -1,8 +1,6 @@
 import os.path
 import argparse
 import gzip
-import numpy as np
-import pandas as pd
 
 
 def main():
@@ -32,7 +30,7 @@ def main():
 
     gene_reads = read_file(gene_reads_file, gene)
     file_status = write_reads_to_file(gene_reads, output_file)
-    print('Created ouput file: '+str(file_status))
+    print('Created reads ouput file: '+str(file_status))
 
 
 def read_file(gene_reads_file, gene):
