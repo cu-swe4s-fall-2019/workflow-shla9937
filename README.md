@@ -10,3 +10,5 @@ Box.py will take files created from these two (as many as you like) and create a
 ![](Brain-Heart-Blood-Skin_SDHB-MEN1-KCNH2-MSH2-MYL2-BRCA2.png)
 
 The Snakemake file can be used to make a pipeline that will output this boxplot of any combination of tissues and genes inputed.
+
+![](dag.png)
