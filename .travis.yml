@@ -16,5 +16,8 @@ pycodestyle get_gene_counts.py
 pycodestyle test_get_gene_counts.py
 pycodestyle get_tissue_samples.py
 pycodestyle test_get_tissue_samples.py
+pycodestyle box.py
+pycodestyle test_box.py
+python test_box.py
 python test_get_tissue_samples.py
 python test_get_gene_counts.py
